@@ -33,6 +33,11 @@ dataset_settings = {
                   'Socks', 'Pants', 'Jumpsuits', 'Scarf', 'Skirt', 'Face', 'Left-arm', 'Right-arm',
                   'Left-leg', 'Right-leg', 'Left-shoe', 'Right-shoe']
     },
+    'lip-less': {
+        'input_size': [473, 473],
+        'num_classes': 4,
+        'label': [ 'Left-leg', 'Right-leg', 'Left-shoe', 'Right-shoe']
+    },
     'atr': {
         'input_size': [512, 512],
         'num_classes': 18,
