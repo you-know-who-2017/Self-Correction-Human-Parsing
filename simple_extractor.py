@@ -59,7 +59,7 @@ def get_arguments():
     """
     parser = argparse.ArgumentParser(description="Self Correction for Human Parsing")
 
-    parser.add_argument("--dataset", type=str, default='lip', choices=['lip', 'atr', 'pascal'])
+    parser.add_argument("--dataset", type=str, default='lip', choices=['lip','lip-less','atr', 'pascal'])
     parser.add_argument("--model-restore", type=str, default='', help="restore pretrained model parameters.")
     parser.add_argument("--gpu", type=str, default='0', help="choose gpu device.")
     parser.add_argument("--input-dir", type=str, default='', help="path of input image folder.")
